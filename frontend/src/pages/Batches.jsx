@@ -137,7 +137,7 @@ export default function Batches() {
                           </Link>
                           {b.qr_code_url && (
                             <a
-                              href={`http://localhost:8000${b.qr_code_url}`}
+                              href={b.qr_code_url}
                               target="_blank"
                               rel="noreferrer"
                               className="btn btn-xs btn-outline"
